@@ -2,8 +2,8 @@ import Cashier
 import qualified Data.Map as M
 
 main = do
-        items <- getItemInfo "items"
-        discount <- getDiscountInfo "discount"
+        items <- getItemInfo "../items"
+        discount <- getDiscountInfo "../discount"
 
         let jsondata = "[\"ITEM000001\", \"ITEM000001\", \"ITEM000001\", \"ITEM000001\", \"ITEM000001\", \"ITEM000003-2\", \"ITEM000005\", \"ITEM000005\", \"ITEM000005\"]"
 
