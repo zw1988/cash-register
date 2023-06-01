@@ -20,6 +20,6 @@ if __name__ == '__main__':
             print 'system is being shutdown'
             sleep(2)
             sys.exit('bye')
-        except:
+        except Exception as e:
             print 'input error'
 
